@@ -1,0 +1,16 @@
+scenario,algo,sd_pairs,success
+1,Q-RITA,10,153
+1,Q-RITA,15,147
+1,Q-RITA,20,138
+1,Q-RITA,25,127
+1,Q-RITA,30,120
+1,Classical-RR,10,122
+1,Classical-RR,15,130
+1,Classical-RR,20,120
+1,Classical-RR,25,111
+1,Classical-RR,30,105
+1,Static-RIS,10,115
+1,Static-RIS,15,112
+1,Static-RIS,20,115
+1,Static-RIS,25,109
+1,Static-RIS,30,99
