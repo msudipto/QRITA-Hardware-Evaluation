@@ -139,21 +139,11 @@ Each figure is saved as `.png`, `.svg`, and `.pdf` in `/figures`.
 
 ---
 
-## 🧩 Example Figures  
+## 🧩 Figures  
 
 | EDR over Time | LCR over Time | Distance Ratio Impact | SD‑Pairs Impact |
 |:--------------:|:--------------:|:---------------------:|:----------------:|
 | ![EDR](figures/edr_over_time.png) | ![LCR](figures/lcr_over_time.png) | ![Distance](figures/distance_ratio_impact.png) | ![SDPairs](figures/sd_pairs_impact.png) |
-
----
-
-## 📚 Citation  
-
-If this repository contributes to your research, please cite as:  
-
-> **M. S. S. Sudipto et al.**,  
-> “RIS‑Assisted Quantum Tactile Internet via Reconfigurable Entanglement Routing (Q‑RITA),”  
-> *Proc. IEEE INFOCOM 2025*, Apr. 2025.
 
 ---
 
@@ -163,6 +153,6 @@ This research was conducted at **Iowa State University**, within the **Quantum N
 
 ---
 
-**Correspondence:** *Mubassir Serneabat Sudipto*  
-*Email:* [msudipto@iastate.edu](mailto:msudipto@iastate.edu)  
+**Correspondence:** *Dr. Shakil Ahmed, Member, IEEE,*, *Mubassir Serneabat Sudipto*  
+*Email:* [shakil@iastate.edu](mailto:shakil@iastate.edu), [msudipto@iastate.edu](mailto:msudipto@iastate.edu)  
 *Affiliation:* Department of Electrical and Computer Engineering, Iowa State University  
