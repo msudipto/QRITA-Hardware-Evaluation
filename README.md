@@ -15,33 +15,33 @@ All figures and datasets conform to **IEEE INFOCOM** publication standards for r
 
 ```text
 QRITA/
-├── build_metrics.py               # Computes EDR/LCR metrics from raw job results
-├── collect_hardware_runs.py       # Submits and monitors Qiskit Sampler hardware runs
-├── ibm_open_setup.py              # Configures IBM Quantum token and selects backend
-├── plot_graphs.py                 # Generates IEEE‑INFOCOM‑formatted figures
+├── build_metrics.py                   # Computes EDR/LCR metrics from raw job results
+├── collect_hardware_runs.py           # Submits and monitors Qiskit Sampler hardware runs
+├── ibm_open_setup.py                  # Configures IBM Quantum token and selects backend
+├── plot_graphs.py                     # Generates IEEE‑INFOCOM‑formatted figures
 │
 ├── data/
-│   ├── backend.json               # Selected backend metadata
-│   ├── distance_metrics.csv       # Averaged EDR/LCR metrics vs distance ratio
-│   ├── distance_sweep.csv         # Raw sampler outcomes for distance sweep
-│   ├── raw_jobs.jsonl             # Complete hardware job log (timestamps, status, results)
-│   ├── sd_pairs_metrics.csv       # Averaged metrics vs number of SD pairs
-│   ├── sd_pairs_sweep.csv         # Raw outcomes for SD‑pair variation
-│   ├── timeseries.csv             # Base success probabilities over time
-│   ├── timeseries_satisfaction.csv# Derived LCR over time
-│   ├── timeseries_throughput.csv  # Derived EDR over time
+│   ├── backend.json                   # Selected backend metadata
+│   ├── distance_metrics.csv           # Averaged EDR/LCR metrics vs distance ratio
+│   ├── distance_sweep.csv             # Raw sampler outcomes for distance sweep
+│   ├── raw_jobs.jsonl                 # Complete hardware job log (timestamps, status, results)
+│   ├── sd_pairs_metrics.csv           # Averaged metrics vs number of SD pairs
+│   ├── sd_pairs_sweep.csv             # Raw outcomes for SD‑pair variation
+│   ├── timeseries.csv                 # Base success probabilities over time
+│   ├── timeseries_satisfaction.csv    # Derived LCR over time
+│   ├── timeseries_throughput.csv      # Derived EDR over time
 │
 └── figures/
-    ├── distance_ratio_impact.png  # EDR/LCR vs distance ratio
+    ├── distance_ratio_impact.png      # EDR/LCR vs distance ratio
     ├── distance_ratio_impact.svg
     ├── distance_ratio_impact.pdf
-    ├── edr_over_time.png          # EDR temporal evolution
+    ├── edr_over_time.png              # EDR temporal evolution
     ├── edr_over_time.svg
     ├── edr_over_time.pdf
-    ├── lcr_over_time.png          # LCR temporal evolution
+    ├── lcr_over_time.png              # LCR temporal evolution
     ├── lcr_over_time.svg
     ├── lcr_over_time.pdf
-    ├── sd_pairs_impact.png        # Impact of SD‑pairs on EDR/LCR
+    ├── sd_pairs_impact.png            # Impact of SD‑pairs on EDR/LCR
     ├── sd_pairs_impact.svg
     └── sd_pairs_impact.pdf
 ```
