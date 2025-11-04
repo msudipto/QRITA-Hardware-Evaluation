@@ -153,6 +153,6 @@ This research was conducted at **Iowa State University**, within the **Quantum N
 
 ---
 
-**Correspondence:** *Dr. Shakil Ahmed, Member, IEEE*, *Mubassir Serneabat Sudipto*  
+**Correspondence:** *Dr. Shakil Ahmed, Member, IEEE*, and *Mubassir Serneabat Sudipto*  
 *Email:* [shakil@iastate.edu](mailto:shakil@iastate.edu), [msudipto@iastate.edu](mailto:msudipto@iastate.edu)  
 *Affiliation:* Department of Electrical and Computer Engineering, Iowa State University  
