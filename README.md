@@ -3,7 +3,7 @@
 
 ---
 
-## 🧭 Abstract  
+## Abstract  
 
 This repository presents the full experimental workflow used to evaluate **Q‑RITA (Quantum Reconfigurable Intelligent Transmission Architecture)**, a **RIS‑assisted Quantum Tactile Internet** framework.  
 The implementation integrates **IBM Quantum Hardware** through **Qiskit Runtime v2.x**, enabling end‑to‑end experimentation for Entanglement‑Distribution Rate (EDR) and Latency Compliance Ratio (LCR) measurements.  
@@ -11,7 +11,7 @@ All figures and datasets conform to **IEEE INFOCOM** publication standards for r
 
 ---
 
-## 🧩 Repository Structure  
+## Repository Structure  
 
 ```text
 QRITA/
@@ -48,7 +48,7 @@ QRITA/
 
 ---
 
-## ⚙️ Environment Configuration  
+## Environment Configuration  
 
 ### Requirements  
 - Python ≥ 3.10  
@@ -71,9 +71,9 @@ export IBM_QUANTUM_TOKEN="your_token_here"
 
 ---
 
-## 🔬 Experimental Methodology  
+## Experimental Methodology  
 
-### 1️⃣ Backend Configuration  
+### Backend Configuration  
 Selects and records the least‑busy open‑plan backend:  
 ```bash
 python ibm_open_setup.py
@@ -83,7 +83,7 @@ This generates `data/backend.json`, e.g.
 {"backend_name": "ibm_fez", "timestamp": "2025‑11‑01T17:53:42Z"}
 ```
 
-### 2️⃣ Hardware Data Acquisition  
+### Hardware Data Acquisition  
 Executes controlled Sampler runs on the selected backend:  
 ```bash
 python collect_hardware_runs.py
@@ -95,7 +95,7 @@ This script performs:
 
 Outputs include raw quasi‑probabilities, success ratios, elapsed times, and job IDs in `raw_jobs.jsonl`.
 
-### 3️⃣ Metric Synthesis  
+### Metric Synthesis  
 Processes raw hardware data to compute publication‑ready metrics:  
 ```bash
 python build_metrics.py
@@ -108,7 +108,7 @@ python build_metrics.py
 Outputs:  
 `timeseries_throughput.csv`, `timeseries_satisfaction.csv`, `distance_metrics.csv`, `sd_pairs_metrics.csv`.
 
-### 4️⃣ Visualization  
+### Visualization  
 Produces IEEE‑grade figures:  
 ```bash
 python plot_graphs.py
@@ -117,7 +117,7 @@ Each figure is saved as `.png`, `.svg`, and `.pdf` in `/figures`.
 
 ---
 
-## 📈 Result Summary  
+## Result Summary  
 
 | Metric | Observation | Trend |
 |---------|--------------|--------|
@@ -127,7 +127,7 @@ Each figure is saved as `.png`, `.svg`, and `.pdf` in `/figures`.
 
 ---
 
-## 🧾 Reproducibility Notes  
+## Reproducibility Notes  
 
 - Backend: `ibm_fez` (156 qubits, open‑plan, us‑east).  
 - Each experiment auto‑saves timestamps, backend ID, and elapsed runtime.  
@@ -139,7 +139,7 @@ Each figure is saved as `.png`, `.svg`, and `.pdf` in `/figures`.
 
 ---
 
-## 🧩 Figures  
+## Figures  
 
 | EDR over Time | LCR over Time | Distance Ratio Impact | SD‑Pairs Impact |
 |:--------------:|:--------------:|:---------------------:|:----------------:|
@@ -147,7 +147,7 @@ Each figure is saved as `.png`, `.svg`, and `.pdf` in `/figures`.
 
 ---
 
-## 🧠 Acknowledgment  
+## Acknowledgment  
 
 This research was conducted at **Iowa State University**, within the **Quantum Networking and RIS Systems Laboratory**, utilizing computational resources provided by **IBM Quantum Services (Open Plan)**.
 
